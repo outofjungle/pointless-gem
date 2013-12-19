@@ -1,6 +1,6 @@
 class PointlessGem
   def msg
-    'hello world'
+    %(It's pointless)
   end
 
   def self.run

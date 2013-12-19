@@ -4,6 +4,6 @@ require 'pointless_gem'
 describe PointlessGem do
   it 'msg returns hello world' do
     pointless_gem = PointlessGem.new
-    expect(pointless_gem.msg).to eql('hello world')
+    expect(pointless_gem.msg).to eql(%(It's pointless))
   end
 end
